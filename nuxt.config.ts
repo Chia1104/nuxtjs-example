@@ -13,4 +13,9 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
+  runtimeConfig: {
+    gqApi: "",
+    gqWs: "",
+    gqSecret: "",
+  },
 });
